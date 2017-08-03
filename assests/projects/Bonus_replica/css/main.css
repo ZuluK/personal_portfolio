@@ -1,0 +1,398 @@
+
+/* changes  body elements */
+* {
+  border: 0;
+  margin: 0;
+  outline: none;
+  padding: 0;
+}
+/* padding added to top of body */
+body {
+  line-height: 1;
+  padding-top: 50px;
+}
+/* header elements font size changes */
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  padding: .6em 0;
+  margin: 0 15px;
+}
+/* removes bullets from li elements */
+ul, ol {
+  list-style: none;
+}
+/* changes all text color to black, removes underline on anchor links */
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/* no changes */
+.floatLeft {
+  float: right;
+  padding: .5em .5em .5em 0;
+}
+
+/* no changes */
+.floatRight {
+  float: right;
+  padding: .5em 0 .5em .5em;
+}
+
+/* adds color purple to nav element, font changes. fixed positon */
+nav {
+  background-color: #352d2f;
+  font-family: 'Titillium Web', sans-serif;
+  min-height: 50px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+/* adds red box to log and inline shift */
+.logo {
+  background-color: #f63c3c;
+  color: #fff;
+  display: inline-block;
+  margin-left: 10%;
+  padding: 9px 10px 10px;
+}
+
+/* positive changes to span element on logo class*/
+a.logo span:first-child {
+  left: 3px;
+  position:relative;
+}
+
+/* no changes */
+.sitenav {
+  display: inline-block;
+  float: right;
+  margin-right: 10%;
+}
+/* no changes */
+.sitenav li {
+  display: inline-block;
+  margin-right:-4px;
+}
+/* anchor elements are to right over nav bar. anchor color white */
+.sitenav a {
+  color: #fff;
+  display: inline-block;
+  padding: 16px 20px;
+}
+/* displays white border under HOME link */
+li.active a {
+  border-bottom: 3px solid #fff;
+}
+
+/* on hover over links color border is shown */
+.sitenav a:hover {
+  border-bottom: 3px solid #fff;
+  cursor: pointer;
+}
+
+/* adds a black black ground to elemnt, font change to Teko, position relaive */
+#intro {
+  background-color: #352d2f;
+  color: #fff;
+  font-family: 'Teko', sans-serif;
+  min-height: 600px;
+  position: relative;
+  text-align: center;
+}
+
+/* intro heading font size larger and letter spacing */
+#intro h1 {
+  font-size: 80px;
+  letter-spacing: 10px;
+  margin: 0 auto;
+  padding: 15% 0 5%;
+  width: 60%;
+}
+/* adds white border to button. transparent change to button */
+#intro button {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff
+  cursor: pointer;
+  padding: 10px 15px;
+}
+
+/* adds white color to anchor element. */
+#intro a {
+  bottom: 30px;
+  color: inherit;
+  display: block;
+  position: absolute;
+  width: 100%;
+}
+#intro p {
+  font-size: 16px;
+  margin-top: 5px;
+}
+/* centers the text of h1 element and button */
+#explore {
+  font-family: 'Teko', sans-serif;
+  margin: 0 auto;
+  padding: 3% 0;
+  text-align: center;
+  width: 60%;
+}
+/* text styles add to  h1 element in 'explore class */
+#explore h1 {
+  font-size: 30px;
+  letter-spacing: 5px;
+  line-height: 30px;
+}
+
+/* adds border, red backgroud, white text color and padding */
+#explore button {
+  background-color: #f63c3c;
+  border: 1px solid #fff;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 15px;
+}
+/* add white text color, font change to 'Teko' and height*/
+#projects {
+  color: #fff;
+  font-family:'Teko', sans-serif;
+  height: 600px;
+}
+/* adds background color red, pushes all other elements in section to right */
+.main-feature {
+  background-color: #f63c3c;
+  float: left;
+  height: 550px;
+  width: 50%;
+}
+/* add margins to top left-right and bottom, pushes element text down, only text shown is "FEATURED" */
+.main-feature div {
+  font-size: 14px;
+  margin: 50% 10% 3%;
+}
+/*adds larger font to element, letter spacing and margin. element text appears again*/
+.main-feature .title {
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin: 0 10%;
+}
+/* adds styling to p element wrapped in class */
+.main-feature p {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  margin: 0 10%;
+  width: 45%;
+}
+/* right float on class, moves text to right and adds purple background */
+.side-feature {
+  background-color: #352d3f;
+  float: right;
+  height: 275px;
+  width: 50%;
+}
+/* adds black border to second child */
+.side-feature:nth-child(3) {
+  background-color: #30282a;
+}
+/* text styling on div elements in class */
+.side-feature div {
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin: 20% 10% 0;
+}
+/* changes font text, font size and with on p elment nested in class */s
+.side-feature p {
+  font-family:'Titillium Web',sans-serif;
+  font-size: 12px;
+  line-height: 0 10%;
+  width: 45%;
+}
+/* adds color border of purple to element */
+.bottom-feature {
+  background-color: #30283a;
+  clear: both;
+  height: 50px;
+  padding: 10px 0;
+  text-align: center;
+}
+/* anchor link changes. white color text */
+.bottom-feature a {
+  border-bottom: 3px solid #fff;
+  color: #fff;
+  font-size: 14px;
+  margin:0 auto;
+  padding: 5px;
+  width: 14%;
+}
+/* adds background color of lightblue and text changes to element */
+#info {
+  background-color: #fafafa;
+  font-family: 'Teko', sans-serif;
+  padding: 3% 0;
+}
+/* inline-block all div elements in div */
+#info div {
+  display: inline-block;
+  margin-left: 7%;
+  width: 35%
+}
+/* adds marging left to first-child */
+#info div:first-child {
+  margin-left: 10%;
+}
+/* adds marging to h3 element */
+#info h3 {
+  marging-left: 0;
+}
+/**/
+#info p {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 14px;
+}
+/*adds color red to i class icons */
+#info i {
+  color: #f63c3c;
+}
+/* adds background color to lightblue */
+#social {
+  background-color: #fafafa;
+  padding: 3% 0;
+}
+/* adds width to all div elements */
+#social > div {
+  margin: 0 auto;
+  width: 80%;
+}
+/* adds Teko font to h2 element */
+#social h2 {
+  font-family: 'Teko', sans-serif;
+  font-size: 30px;
+  margin: 0;
+}
+/* adds 0 margin */
+#social h3 {
+  margin: 0;
+}
+/* changes font and font size on p elements in class */
+#social p {
+  font-family: 'Titillium Web',sans-serif;
+  font-size:14px;
+  margin: 0 0 1%;
+}
+/* icons are inline-block. text moved to center. background change to black */
+#social-icons > a {
+  background-color: #30282a;
+  color: #fff;
+  display: inline-block;
+  padding: 40px 74px;
+  text-align: center;
+}
+/* margin left adds space between anchor links */
+#social-icons > a:nth-child(n+2) {
+  margin-left: 2%;
+}
+/* adds background color and padding pushes text to left of screen */
+#contact {
+  background-color: #30282a;
+  font-family: 'Teko',sans-serif;
+  padding: 150px;
+}
+/* add red background with padding for text */
+#contact div {
+  background-color: #f63c3c;
+  color: #fff;
+  margin: 0 auto;
+  padding: 45px 25px;
+  text-align: center;
+  width: 35%;
+}
+/* add margin on icon */
+#contact i {
+  margin: 1% 0;
+}
+/*font size to address element in class */
+#contact address {
+  font-size: 14px;
+}
+/* changes to span element font styles */
+#contact span {
+  display: inline-block;
+  font-size: 16px;
+  font-style: normal;
+  letter-spacing: 1px;
+  margin: 2% 0 1%;
+}
+/* changes text to color white */
+#contact a {
+  color: #fff;
+}
+/* shifts footer elements to left of screen, font change to 'Teko'*/
+footer {
+  font-family: 'Teko',sans-serif;
+  margin: 0 auto;
+  padding: 0 0 3%;
+  width: 65%;
+}
+/* pushes 'col-50'class elements to right*/
+.col-25 {
+  float: left;
+  margin: 3%;
+  width: 20%;
+}
+/* elemnt inline with other footer elements*/
+.col-50 {
+  float: left;
+  margin: 3% 0;
+  width: 45%;
+}
+/* no noticeable changes */
+#footer h3 {
+  margin-left: 0;
+}
+/* adds border on bottom on h3 elements*/
+#footer > div > hr {
+  border: 3px solid #000;
+}
+/* adds border */
+#footer > hr {
+  border: 1px solid #000;
+  clear: left;
+  margin-top: 25px;
+}
+/* no changes */
+.col-50 > ul {
+  float: left;
+  width: 50%;
+}
+/**/
+#footer div:last-child {
+  clear: both;
+}
+/* moves element to right */
+#footer div:last-child ul {
+  float: right;
+}
+/**/
+#footer div:last-child li {
+  display: inline-block;
+}
+/* font size and padding changes to ul elements in footer */
+#footer ul {
+  font-size: 12px;
+  padding-top: 5px;
+}
+/* adds padding to li elemnts in class */
+.terms li {
+  padding: 0 15px;
+}
+/* adds pading to li elements in footer class */
+#footer li {
+  padding: 1% 0;
+}
+/* changes font size */
+#footer span {
+  font-size: 12px:
+}

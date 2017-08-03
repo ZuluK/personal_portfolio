@@ -1,0 +1,330 @@
+/* Changes all body font style */
+body {
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 50px;
+  margin: 0;
+}
+/* padding added to section elements */
+section {
+  padding: 50px 0;
+}
+/* Creates nav bar */
+nav {
+  background: #02908b;
+  height: 60px;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 100;
+}
+/* changes text size, color to white */
+nav > a {
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  left: 25px;
+  position: absolute;
+  text-align: left;
+  text-decoration: none;
+  top: 10px;
+}
+/* adds yellow text to span element */
+nav span {
+  font-family: 'Open Sans', sans-serif;
+  color: #cfc91d;
+  text-align: left;
+}
+/* nav links are shifted to right */
+nav ul {
+  position: absolute;
+  right: 25px;
+  top: 5px;
+}
+/* nav link are now inline */
+nav li {
+  display: inline-block;
+  padding: 0 15px;
+}
+/* removes underline and changes link color to white */
+nav li a {
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out;
+}
+/* on hover the link color changes to yellow */
+nav li > a:hover,
+nav li > a:focus {
+  color: #cfc91d;
+}
+/* background imaged added */
+header {
+  background-attachment: fixed;
+  background-image: url(../img/headerbg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: 100% 50%;
+  color: #fff;
+  height: 500px;
+  padding-top: 15%;
+  text-align: center;
+}
+/* header font size changes */
+header h1 {
+  font-size: 36px;
+  margin: 0;
+}
+/* header2 font size changes */
+header h2 {
+  font-size: 72px;
+  letter-spacing: 20px;
+  margin: 0;
+}
+/* header p margin top changes */
+header p {
+  margin-top: 0;
+}
+/* header img padding */
+header img {
+  padding: 35px 0;
+}
+
+/* changes to anchor element color,weight and size */
+header a {
+  background-color: #cdc71d;
+  color: #0b1016;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px 18px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+/* anchor hover color change to white */
+header a:hover {
+  background-color: #fff;
+  color: #0b1016;
+  cursor: pointer;
+}
+
+/* text now in center of page*/
+#about {
+  text-align: center;
+}
+
+/* changes to text size, color to seagreen and bold. */
+#about .title,
+#service .title,
+#contact  .title {
+  color: #02918c;
+  font-size: 46px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+/* changes to margin on image */
+#about img {
+  margin: 15px 0;
+}
+
+/* line height changes and color change to grey */
+#about > p {
+  color: #7e8287;
+  line-height: 41px;
+  margin: 0 auto;
+  width: 70%;
+}
+/* changes span element to larger font size */
+#about span {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+/* auto margin and color change to grey */
+.aboutBoxes {
+  color: #7e8287;
+  margin: 0 auto;
+  width: 80%;
+}
+
+/* adds border to the right and elements are floated to the left */
+.aboutBox {
+  border-right: 1px solid black;
+  float: left;
+  margin: 3% 0;
+  padding: 0 4%;
+  width: 16%;
+}
+/* reduces font size */
+.aboutBox h2 {
+  font-size: 18px;
+}
+
+/* paragraph small font size and bold font weight */
+.aboutBox p {
+  font-size: 11px;
+  font-weight: bold;
+}
+
+/* changes icon color to grey */
+.about i {
+  color: #02918c;
+}
+/* removed border */
+.aboutBox:last-child {
+  border: none;
+}
+/* adds background image. elements displayed with inline style */
+#service {
+  background-image: url(../img/service.png);
+  background-size: cover;
+  display: inline-block;
+  padding-left: 10%;
+}
+/* changes to element positon */
+.serviceWrapper {
+  width: 40%;
+}
+/* no visible changes */
+#service img {
+  margin: 15px 0;
+}
+
+/* increases height on text */
+.serviceWrapper > p {
+  color: #7e8287;
+  line-height: 41px;
+}
+
+/* image is show in full size. element is floated left */
+.serviceBox {
+  float: left;
+  width: 40%;
+  color: #7e8287;
+}
+/* margin moves element left */
+.serviceBox.left {
+  margin-left: 15%;
+}
+
+/* color change to seagreen */
+.serviceBox i {
+  color: #02918c;
+  margin: 5px 0;
+}
+
+/* font-size changes */
+.serviceBox h2 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.serviceBox > p {
+  font-size: 11px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+#contact {
+  padding-bottom: 0;
+  text-align: center;
+}
+
+/* text is centered */
+#contact p {
+  color: #7e8287;
+  line-height: 41px;
+  width: 53%;
+  margin: 0 auto 5%;
+}
+
+/* margin changes */
+#contact img {
+  margin: 15px 0;
+}
+
+/* color chage to grey */
+ #contact p {
+   color: #7e8287;
+   line-height: 41px;
+   width: 53%;
+   margin: 0 auto 5%;
+ }
+/* add black background to contact form */
+ .contactForm {
+   background: #0b0b0b;
+   color: #7d8186;
+   padding: 50px 25px;
+ }
+
+/* changes to border on contact form */
+.contactForm input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #7d8186;
+  color: #7d8186;
+  font-size: 24px;
+  height: 30px;
+  text-align: center;
+  width: 60%;
+}
+/* change to text area element. border black on top and bottom */
+.contactForm textarea {
+  background: transparent;
+  border:none;
+  border-bottom: 1px solid #7d8186;
+  border-top:1px solid #7d8186;
+  color: #7d8186;
+  font-size: 24px;
+  text-align: center;
+  width: 60%;
+}
+
+/* adds focus on textarea */
+.contactForm input:focus.
+.contactForm textarea:focus {
+  outline: none;
+}
+/* no visible changes */
+.contactForm .half {
+  margin: 2% 25%;
+}
+
+/* no visible changes */
+.contactForm .three_quarters {
+  margin: 4% 10%;
+}
+
+/* changes to submit button */
+.contactForm button {
+  background-color: #cdc71d;
+  border: none;
+  clear: both;
+  color: #0b1016;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 10px 35px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+/* on hover button color change to white */
+.contactForm button:hover {
+  background-color: #fff;
+  color: #0b1016;
+  cursor: pointer;
+}
+
+/* adds black background to footer element */
+#sitefooter {
+  background: #000;
+  padding: 10px 0;
+  width: 100%;
+}
+
+/* aligns the text and color change to white */
+#sitefooter p {
+  color: #7e8287;
+  text-align: center;
+}
