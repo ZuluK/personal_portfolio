@@ -1060,3 +1060,6 @@ footer .links .ccopy > i{
     margin: 0;
     padding: 3px
 }
+ .progress {
+   display: none;
+ }
